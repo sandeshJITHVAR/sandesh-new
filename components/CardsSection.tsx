@@ -43,7 +43,27 @@ export default function SelectedWork() {
       className="w-full h-[400px] bg-gray-400 rounded-2xl"
     />
   ))}
-</div>
+</div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       </div>
     </section>
