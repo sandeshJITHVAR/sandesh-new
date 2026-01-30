@@ -103,7 +103,7 @@ export default function PortfolioPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#050505] via-[#0b0b0b] to-black text-white">
+    <main className=" text-white">
       <div className="max-w-[1480px] mx-auto px-4 py-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 

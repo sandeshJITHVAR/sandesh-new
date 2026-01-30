@@ -148,12 +148,12 @@ export default function StickyCards() {
     return (
         <section
             ref={containerRef}
-            className="relative  h-screen w-full overflow-hidden bg-black"
+            className="relative  h-screen w-full overflow-hidden "
         >
             <div className=' max-w-[1480px] '>
 
    <div className="absolute top-0 left-0 w-full pt-10 pointer-events-none">
-                <div ref={headerRef} className="ml-auto text-end mr-[8vw] max-w-[520px]">
+                <div className="ml-auto text-end mr-[8vw] max-w-[520px]">
                     <h2 className="text-6xl font-extrabold leading-tight text-white">
                         LENIS BRINGS
                         <br />
@@ -165,7 +165,7 @@ export default function StickyCards() {
                 <div
                     key={card.id}
                     className="card absolute left-0 top-0 h-[60vh] w-[30vw]
-               bg-white border border-black/20
+               border border-white/10 bg-gradient-to-br from-[#111] to-[#0b0b0b]
                shadow-[0_20px_60px_rgba(0,0,0,0.12)]
                p-6 opacity-0
                flex flex-col"

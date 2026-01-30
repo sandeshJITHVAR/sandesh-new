@@ -30,18 +30,21 @@ export default function SelectedWork() {
   }, []);
 
   return (
-    <section className="min-h-[200vh] pt-24">
+    <section className="min-h-[200vh] pt-10">
 
       <div 
         ref={sectionRef} 
-        className="bg-[#d9dbe1] max-w-[1480px] mx-auto px-8 pt-40 pb-8 rounded-[104px] overflow-hidden"
+        className="bg-gradient-to-br from-[#111] to-[#0b0b0b] border border-white/10 max-w-[1480px] mx-auto px-8 pt-40 pb-8 rounded-[104px] overflow-hidden"
       >
-        <div className="grid grid-cols-4  gap-5">
-          <div className="w-full h-96 bg-gray-400 rounded-2xl" />
-          <div className="w-full h-96 bg-gray-400 rounded-2xl" />
-          <div className="w-full h-96 bg-gray-400 rounded-2xl" />
-          <div className="w-full h-96 bg-gray-400 rounded-2xl" />
-        </div>
+     <div className="grid grid-cols-4 gap-5">
+  {Array.from({ length: 4 }).map((_, index) => (
+    <div
+      key={index}
+      className="w-full h-[400px] bg-gray-400 rounded-2xl"
+    />
+  ))}
+</div>
+
       </div>
     </section>
   );

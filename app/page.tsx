@@ -5,12 +5,13 @@ import StackedCards from "@/components/StackedCards";
 import { Car } from "lucide-react";
 export default function Home() {
   return (
-   <div>
+   <div className="bg-gradient-to-br from-[#050505] via-[#0b0b0b] to-black">
 
   <Hero />
+  <AboutSection/>
   <StackedCards/>
   <CardsSection/>
-<div  className="h-[900px] bg-red-50"/>
+<div  className="h-[900px] "/>
     </div>
   );
 }
