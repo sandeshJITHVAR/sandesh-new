@@ -5,9 +5,7 @@ export default function Hero() {
         <h1 className="text-6xl font-bold">
           Sandesh Deshmukh
         </h1>
-        <p className="mt-4 text-xl opacity-70">
-          Frontend Developer • Next.js • React
-        </p>
+       
       </div>
     </section>
   );
